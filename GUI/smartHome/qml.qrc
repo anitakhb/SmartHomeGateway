@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>StartingPage.qml</file>
+        <file>LightPage.qml</file>
+        <file>ThirdPage.qml</file>
+        <file>FourthPage.qml</file>
+        <file>home.png</file>
+        <file>light.png</file>
+        <file>thermostatic.png</file>
+        <file>cpu.png</file>
+        <file>wifi.png</file>
+        <file>off.png</file>
+        <file>on.png</file>
+        <file>heater.png</file>
+        <file>cooler.png</file>
+        <file>fanhot.png</file>
+        <file>fancold.png</file>
+        <file>thermos.png</file>
+    </qresource>
+</RCC>
