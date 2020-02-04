@@ -1,0 +1,524 @@
+{
+  "title": "Light",
+  "configuration": {
+    "widgets": {
+      "1dc1171b-df31-2d7e-63df-720b29ce78dc": {
+        "isSystemType": true,
+        "bundleAlias": "control_widgets",
+        "typeAlias": "rpcbutton",
+        "type": "rpc",
+        "title": "New widget",
+        "sizeX": 4,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#778ea5",
+          "color": "rgba(170, 79, 79, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "requestTimeout": 5000,
+            "oneWayElseTwoWay": true,
+            "styleButton": {
+              "isRaised": true,
+              "isPrimary": false
+            },
+            "methodName": "set_light",
+            "methodParams": "{\"temp\":1}",
+            "showError": true,
+            "buttonText": "Light 1"
+          },
+          "title": "New RPC Button",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "datasources": [],
+          "showTitleIcon": false,
+          "titleIcon": null,
+          "iconColor": "rgba(118, 160, 187, 0.87)",
+          "iconSize": "24px",
+          "titleTooltip": "",
+          "displayTimewindow": true,
+          "targetDeviceAliasIds": [
+            "3fde6064-356d-d192-d73f-c20397a5ac73"
+          ]
+        },
+        "id": "1dc1171b-df31-2d7e-63df-720b29ce78dc"
+      },
+      "a38ce99a-d797-6b9f-9633-f0e53ad85da2": {
+        "isSystemType": true,
+        "bundleAlias": "control_widgets",
+        "typeAlias": "led_indicator",
+        "type": "rpc",
+        "title": "New widget",
+        "sizeX": 2.5,
+        "sizeY": 2.5,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "requestTimeout": 500,
+            "initialValue": true,
+            "title": "Led indicator",
+            "ledColor": "#1565c0",
+            "retrieveValueMethod": "timeseries",
+            "parseValueFunction": "return data ? true : false;",
+            "performCheckStatus": false,
+            "checkStatusMethod": "checkStatus",
+            "valueAttribute": "light1"
+          },
+          "title": "New Led indicator",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "showTitleIcon": false,
+          "titleIcon": null,
+          "iconColor": "rgba(0, 0, 0, 0.87)",
+          "iconSize": "24px",
+          "titleTooltip": "",
+          "displayTimewindow": true,
+          "targetDeviceAliasIds": [
+            "3fde6064-356d-d192-d73f-c20397a5ac73"
+          ]
+        },
+        "id": "a38ce99a-d797-6b9f-9633-f0e53ad85da2"
+      },
+      "322ead22-1cb2-0711-8e93-cbab94c328fe": {
+        "isSystemType": true,
+        "bundleAlias": "control_widgets",
+        "typeAlias": "rpcbutton",
+        "type": "rpc",
+        "title": "New widget",
+        "sizeX": 4,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#d18696",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "requestTimeout": 5000,
+            "oneWayElseTwoWay": true,
+            "styleButton": {
+              "isRaised": true,
+              "isPrimary": false
+            },
+            "methodName": "set_light",
+            "methodParams": "{\"temp\":2}",
+            "buttonText": "Light 2",
+            "showError": true
+          },
+          "title": "New RPC Button",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "datasources": [],
+          "showTitleIcon": false,
+          "titleIcon": null,
+          "iconColor": "rgba(0, 0, 0, 0.87)",
+          "iconSize": "24px",
+          "titleTooltip": "",
+          "displayTimewindow": true,
+          "targetDeviceAliasIds": [
+            "3fde6064-356d-d192-d73f-c20397a5ac73"
+          ]
+        },
+        "id": "322ead22-1cb2-0711-8e93-cbab94c328fe"
+      },
+      "290e4ca3-f143-a72a-9b11-940bfc4444f2": {
+        "isSystemType": true,
+        "bundleAlias": "control_widgets",
+        "typeAlias": "led_indicator",
+        "type": "rpc",
+        "title": "New widget",
+        "sizeX": 2.5,
+        "sizeY": 2.5,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "requestTimeout": 500,
+            "initialValue": true,
+            "title": "Led indicator",
+            "ledColor": "#b71c1c",
+            "retrieveValueMethod": "timeseries",
+            "parseValueFunction": "return data ? true : false;",
+            "performCheckStatus": false,
+            "checkStatusMethod": "checkStatus",
+            "valueAttribute": "light2"
+          },
+          "title": "Light 2",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "showTitleIcon": true,
+          "titleIcon": null,
+          "iconColor": "rgba(0, 0, 0, 0.87)",
+          "iconSize": "24px",
+          "titleTooltip": "",
+          "displayTimewindow": true,
+          "targetDeviceAliasIds": [
+            "3fde6064-356d-d192-d73f-c20397a5ac73"
+          ]
+        },
+        "id": "290e4ca3-f143-a72a-9b11-940bfc4444f2"
+      },
+      "83a5db52-d34b-90de-d1b8-a502e7fc004e": {
+        "isSystemType": true,
+        "bundleAlias": "control_widgets",
+        "typeAlias": "rpcbutton",
+        "type": "rpc",
+        "title": "New widget",
+        "sizeX": 4,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#80cbb8",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "requestTimeout": 5000,
+            "oneWayElseTwoWay": true,
+            "styleButton": {
+              "isRaised": true,
+              "isPrimary": false
+            },
+            "methodName": "set_light",
+            "methodParams": "{\"temp\":3}",
+            "buttonText": "Light 3",
+            "showError": true
+          },
+          "title": "Light 3",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "datasources": [],
+          "showTitleIcon": false,
+          "titleIcon": null,
+          "iconColor": "rgba(0, 0, 0, 0.87)",
+          "iconSize": "24px",
+          "titleTooltip": "",
+          "displayTimewindow": true,
+          "targetDeviceAliasIds": [
+            "3fde6064-356d-d192-d73f-c20397a5ac73"
+          ]
+        },
+        "id": "83a5db52-d34b-90de-d1b8-a502e7fc004e"
+      },
+      "95cb9663-35a1-8257-3790-99861c7df468": {
+        "isSystemType": true,
+        "bundleAlias": "control_widgets",
+        "typeAlias": "led_indicator",
+        "type": "rpc",
+        "title": "New widget",
+        "sizeX": 2,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "requestTimeout": 500,
+            "initialValue": true,
+            "title": "Led indicator",
+            "ledColor": "#009688",
+            "retrieveValueMethod": "timeseries",
+            "parseValueFunction": "return data ? true : false;",
+            "performCheckStatus": false,
+            "checkStatusMethod": "checkStatus",
+            "valueAttribute": "light3"
+          },
+          "title": "New Led indicator",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "showTitleIcon": false,
+          "titleIcon": null,
+          "iconColor": "rgba(0, 0, 0, 0.87)",
+          "iconSize": "24px",
+          "titleTooltip": "",
+          "displayTimewindow": true,
+          "targetDeviceAliasIds": [
+            "3fde6064-356d-d192-d73f-c20397a5ac73"
+          ]
+        },
+        "id": "95cb9663-35a1-8257-3790-99861c7df468"
+      },
+      "4e9284d9-e769-1b05-6c7e-93d900570fe9": {
+        "isSystemType": true,
+        "bundleAlias": "control_widgets",
+        "typeAlias": "rpcbutton",
+        "type": "rpc",
+        "title": "New widget",
+        "sizeX": 4,
+        "sizeY": 2,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#a688bb",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "requestTimeout": 5000,
+            "oneWayElseTwoWay": true,
+            "buttonText": "Light 4",
+            "styleButton": {
+              "isRaised": true,
+              "isPrimary": false
+            },
+            "methodName": "set_light",
+            "methodParams": "{\"temp\":4}"
+          },
+          "title": "New RPC Button",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "datasources": [],
+          "showTitleIcon": false,
+          "titleIcon": null,
+          "iconColor": "rgba(0, 0, 0, 0.87)",
+          "iconSize": "24px",
+          "titleTooltip": "",
+          "displayTimewindow": true,
+          "targetDeviceAliasIds": [
+            "3fde6064-356d-d192-d73f-c20397a5ac73"
+          ]
+        },
+        "id": "4e9284d9-e769-1b05-6c7e-93d900570fe9"
+      },
+      "65b53d81-dd78-0238-eae5-ec428a692c72": {
+        "isSystemType": true,
+        "bundleAlias": "control_widgets",
+        "typeAlias": "led_indicator",
+        "type": "rpc",
+        "title": "New widget",
+        "sizeX": 2.5,
+        "sizeY": 2.5,
+        "config": {
+          "targetDeviceAliases": [],
+          "showTitle": false,
+          "backgroundColor": "#fff",
+          "color": "rgba(0, 0, 0, 0.87)",
+          "padding": "0px",
+          "settings": {
+            "requestTimeout": 500,
+            "initialValue": true,
+            "title": "Led indicator",
+            "ledColor": "#8e24aa",
+            "retrieveValueMethod": "timeseries",
+            "parseValueFunction": "return data ? true : false;",
+            "performCheckStatus": false,
+            "checkStatusMethod": "checkStatus",
+            "valueAttribute": "light4"
+          },
+          "title": "New Led indicator",
+          "dropShadow": true,
+          "enableFullscreen": false,
+          "widgetStyle": {},
+          "titleStyle": {
+            "fontSize": "16px",
+            "fontWeight": 400
+          },
+          "useDashboardTimewindow": true,
+          "showLegend": false,
+          "actions": {},
+          "decimals": 2,
+          "datasources": [],
+          "showTitleIcon": false,
+          "titleIcon": null,
+          "iconColor": "rgba(0, 0, 0, 0.87)",
+          "iconSize": "24px",
+          "titleTooltip": "",
+          "displayTimewindow": true,
+          "targetDeviceAliasIds": [
+            "3fde6064-356d-d192-d73f-c20397a5ac73"
+          ]
+        },
+        "id": "65b53d81-dd78-0238-eae5-ec428a692c72"
+      }
+    },
+    "states": {
+      "default": {
+        "name": "Light",
+        "root": true,
+        "layouts": {
+          "main": {
+            "widgets": {
+              "1dc1171b-df31-2d7e-63df-720b29ce78dc": {
+                "sizeX": 4,
+                "sizeY": 2,
+                "row": 2,
+                "col": 19
+              },
+              "a38ce99a-d797-6b9f-9633-f0e53ad85da2": {
+                "sizeX": 2,
+                "sizeY": 2,
+                "row": 0,
+                "col": 20
+              },
+              "322ead22-1cb2-0711-8e93-cbab94c328fe": {
+                "sizeX": 4,
+                "sizeY": 2,
+                "row": 2,
+                "col": 13
+              },
+              "290e4ca3-f143-a72a-9b11-940bfc4444f2": {
+                "sizeX": 2,
+                "sizeY": 2,
+                "row": 0,
+                "col": 14
+              },
+              "83a5db52-d34b-90de-d1b8-a502e7fc004e": {
+                "sizeX": 4,
+                "sizeY": 2,
+                "row": 2,
+                "col": 7
+              },
+              "95cb9663-35a1-8257-3790-99861c7df468": {
+                "sizeX": 2,
+                "sizeY": 2,
+                "row": 0,
+                "col": 8
+              },
+              "4e9284d9-e769-1b05-6c7e-93d900570fe9": {
+                "sizeX": 4,
+                "sizeY": 2,
+                "row": 2,
+                "col": 1
+              },
+              "65b53d81-dd78-0238-eae5-ec428a692c72": {
+                "sizeX": 2,
+                "sizeY": 2,
+                "row": 0,
+                "col": 2
+              }
+            },
+            "gridSettings": {
+              "backgroundColor": "#eeeeee",
+              "color": "rgba(0,0,0,0.870588)",
+              "columns": 24,
+              "margins": [
+                10,
+                10
+              ],
+              "backgroundSizeMode": "100%"
+            }
+          }
+        }
+      }
+    },
+    "entityAliases": {
+      "3fde6064-356d-d192-d73f-c20397a5ac73": {
+        "id": "3fde6064-356d-d192-d73f-c20397a5ac73",
+        "alias": "light_final",
+        "filter": {
+          "type": "singleEntity",
+          "resolveMultiple": false,
+          "singleEntity": {
+            "entityType": "DEVICE",
+            "id": "34f0c6f0-3c4b-11ea-8a08-61b20ff0b648"
+          }
+        }
+      }
+    },
+    "timewindow": {
+      "displayValue": "",
+      "selectedTab": 0,
+      "hideInterval": false,
+      "hideAggregation": false,
+      "hideAggInterval": false,
+      "realtime": {
+        "interval": 1000,
+        "timewindowMs": 60000
+      },
+      "history": {
+        "historyType": 0,
+        "interval": 1000,
+        "timewindowMs": 60000,
+        "fixedTimewindow": {
+          "startTimeMs": 1578058355712,
+          "endTimeMs": 1578144755712
+        }
+      },
+      "aggregation": {
+        "type": "AVG",
+        "limit": 25000
+      }
+    },
+    "settings": {
+      "stateControllerId": "entity",
+      "showTitle": false,
+      "showDashboardsSelect": true,
+      "showEntitiesSelect": true,
+      "showDashboardTimewindow": true,
+      "showDashboardExport": true,
+      "toolbarAlwaysOpen": true
+    }
+  },
+  "name": "Light"
+}
