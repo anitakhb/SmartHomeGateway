@@ -1,1 +1,3 @@
 # SmartHomeGateway
+
+To Run
